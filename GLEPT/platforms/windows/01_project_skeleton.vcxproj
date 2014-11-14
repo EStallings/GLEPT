@@ -77,19 +77,30 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\source\01_project_skeleton\source\list.cpp" />
     <ClCompile Include="..\..\source\01_project_skeleton\source\main.cpp" />
+    <ClCompile Include="..\..\source\01_project_skeleton\source\objLoader.cpp" />
+    <ClCompile Include="..\..\source\01_project_skeleton\source\objTester.cpp" />
+    <ClCompile Include="..\..\source\01_project_skeleton\source\obj_parser.cpp" />
     <ClCompile Include="..\..\source\01_project_skeleton\source\Program.cpp" />
     <ClCompile Include="..\..\source\01_project_skeleton\source\Shader.cpp" />
+    <ClCompile Include="..\..\source\01_project_skeleton\source\string_extra.cpp" />
+    <ClCompile Include="..\..\source\01_project_skeleton\source\Vector3.cpp" />
     <ClCompile Include="..\..\source\common\thirdparty\glew\src\glew.c" />
     <ClCompile Include="platform_windows.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\source\01_project_skeleton\source\list.h" />
+    <ClInclude Include="..\..\source\01_project_skeleton\source\objLoader.h" />
+    <ClInclude Include="..\..\source\01_project_skeleton\source\obj_parser.h" />
     <ClInclude Include="..\..\source\01_project_skeleton\source\Program.h" />
     <ClInclude Include="..\..\source\01_project_skeleton\source\Shader.h" />
+    <ClInclude Include="..\..\source\01_project_skeleton\source\string_extra.h" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="..\..\source\01_project_skeleton\resources\fragment-shader.txt" />
-    <Text Include="..\..\source\01_project_skeleton\resources\vertex-shader.txt" />
+    <None Include="resources\FragmentShader.frag" />
+    <None Include="resources\FragmentShader2.frag" />
+    <None Include="resources\VertexShader.vert" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

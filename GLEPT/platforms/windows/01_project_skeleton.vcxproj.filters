@@ -27,6 +27,24 @@
     <ClCompile Include="..\..\source\common\thirdparty\glew\src\glew.c">
       <Filter>common</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\source\01_project_skeleton\source\obj_parser.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\01_project_skeleton\source\objLoader.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\01_project_skeleton\source\objTester.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\01_project_skeleton\source\list.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\01_project_skeleton\source\string_extra.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\01_project_skeleton\source\Vector3.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\source\01_project_skeleton\source\Program.h">
@@ -35,13 +53,28 @@
     <ClInclude Include="..\..\source\01_project_skeleton\source\Shader.h">
       <Filter>source</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\source\01_project_skeleton\source\obj_parser.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\01_project_skeleton\source\objLoader.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\01_project_skeleton\source\list.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\01_project_skeleton\source\string_extra.h">
+      <Filter>source</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="..\..\source\01_project_skeleton\resources\fragment-shader.txt">
+    <None Include="resources\FragmentShader.frag">
       <Filter>resources</Filter>
-    </Text>
-    <Text Include="..\..\source\01_project_skeleton\resources\vertex-shader.txt">
+    </None>
+    <None Include="resources\FragmentShader2.frag">
       <Filter>resources</Filter>
-    </Text>
+    </None>
+    <None Include="resources\VertexShader.vert">
+      <Filter>resources</Filter>
+    </None>
   </ItemGroup>
 </Project>
