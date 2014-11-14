@@ -1,0 +1,18 @@
+﻿Build started 11/14/2014 1:14:22 PM.
+     1>Project "C:\Users\Martin\Downloads\opengl-series-master\platforms\windows\01_project_skeleton.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _CONSOLE /D _LIB /D GLEW_STATIC /D GLM_FORCE_RADIANS /Gm /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\Users\Martin\Downloads\opengl-series-master\platforms\windows\Build\01_project_skeleton\Debug\Intermediates\\" /Fd"C:\Users\Martin\Downloads\opengl-series-master\platforms\windows\Build\01_project_skeleton\Debug\Intermediates\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\source\01_project_skeleton\source\main.cpp ..\..\source\01_project_skeleton\source\Program.cpp ..\..\source\01_project_skeleton\source\Shader.cpp platform_windows.cpp
+         platform_windows.cpp
+     1>c:\users\martin\downloads\opengl-series-master\platforms\windows\platform_windows.cpp(1): fatal error C1083: Cannot open include file: 'platform.hpp': No such file or directory
+         Shader.cpp
+     1>c:\users\martin\downloads\opengl-series-master\source\01_project_skeleton\source\shader.h(21): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+         Program.cpp
+     1>c:\users\martin\downloads\opengl-series-master\source\01_project_skeleton\source\shader.h(21): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+         main.cpp
+     1>c:\users\martin\downloads\opengl-series-master\source\01_project_skeleton\source\main.cpp(19): fatal error C1083: Cannot open include file: 'platform.hpp': No such file or directory
+         Generating Code...
+     1>Done Building Project "C:\Users\Martin\Downloads\opengl-series-master\platforms\windows\01_project_skeleton.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.38
